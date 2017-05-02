@@ -18,10 +18,10 @@ etc:  
 ### use
 
 There are four kinds of table view for use:  
-> 【QXMutiHeightTableView】 Normal, use height in item  
-> 【QXEstimatedHeightTableView】 EstimatedHeight, use estimatedHeight in item  
-> 【QXStaticEstimatedHeightTableView】FixEstimatedHeight, ignore estimatedHeight and height in item  
-> 【QXStaticHeightTableView】 FixHeight, ignore estimatedHeight and height in item    
+> 【QXMutiHeightTableView】 Normal, use height in item   
+> 【QXEstimatedHeightTableView】 EstimatedHeight, use estimatedHeight in item   
+> 【QXStaticEstimatedHeightTableView】FixEstimatedHeight, ignore estimatedHeight and height in item   
+> 【QXStaticHeightTableView】 FixHeight, ignore estimatedHeight and height in item     
 
 Create table view 
 ```swift     
