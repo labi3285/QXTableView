@@ -72,7 +72,7 @@ Model & Cell
         override func update(item: QXTableViewCellItem<Person>) {
             super.update(item: item)
             let person = item.data
-                // to update the cell
+            // to update the cell
         }
     }
     
