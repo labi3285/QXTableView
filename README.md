@@ -86,7 +86,7 @@ Or
 
 ```
 Tips:  
-To contain muti type cells, a QXTableViewCellItem must has the Any type of data (QXTableViewCellItem<<Any>>), So is the QXTableViewCell
+To contain muti type cells, a QXTableViewCellItem must has the Any type of data (QXTableViewCellItem\<Any\>), So is the QXTableViewCell
 
 
 Enjoy!
