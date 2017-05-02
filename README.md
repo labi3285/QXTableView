@@ -26,6 +26,7 @@ EstimatedHeight, use estimatedHeight in item
 FixEstimatedHeight, ignore estimatedHeight and height in item  
 > QXStaticHeightTableView:  
 FixHeight, ignore estimatedHeight and height in item  
+
 Create table view 
 ```swift     
     lazy var tableView: QXStaticEstimatedHeightTableView<String, String, Any> = {
@@ -58,8 +59,11 @@ Create table view item
 
 Update 
 ```swift   
+    // update table view
     tableView.item = tableViewItem
-
+    // update cell
+    cellItem.data = newPerson
+    
 ```
 
 Model & Cell 
@@ -71,7 +75,7 @@ Model & Cell
                 // to update the cell
         }
     }
-
+    
 ```
 Or
 ```swift  
