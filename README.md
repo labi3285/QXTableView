@@ -4,11 +4,11 @@
 ### basic rules
 1、View -> Item -> Data  
 Each view has an item model, And each item has a data for bussiness.  
-etc:  
-QXTableView -> QXTableVieItem ( has no data )  
-QXTableViewCell -> QXTableViewCellItem -> data  
-QXTableViewHeaderView -> QXTableViewHeaderItem -> data  
-QXTableViewFooterView -> QXTableViewFooterItem -> data  
+etc:  
+> QXTableView -> QXTableVieItem ( has no data )   
+> QXTableViewCell -> QXTableViewCellItem -> data  
+> QXTableViewHeaderView -> QXTableViewHeaderItem -> data  
+> QXTableViewFooterView -> QXTableViewFooterItem -> data  
 
 2、update  
 > Setting Item to View cause an update to View  
