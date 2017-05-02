@@ -6,9 +6,13 @@
 Each view has an item model, And each item has a data for bussiness.
 etc:
 QXTableView -> QXTableVieItem ( has no data )
+
 QXTableViewCell -> QXTableViewCellItem -> data
+
 QXTableViewHeaderView -> QXTableViewHeaderItem -> data
+
 QXTableViewFooterView -> QXTableViewFooterItem -> data
+
 2、update
 > Setting Item to View cause an update to View 
 > Setting Data to item cause an update to Item & View  
